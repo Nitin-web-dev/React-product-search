@@ -11,7 +11,7 @@ function App() {
     {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
   ];
   return (
-    <div className="App">
+    <div className="container">
       <FilterableProductTable products={PRODUCTS}/>
     </div>
   );
